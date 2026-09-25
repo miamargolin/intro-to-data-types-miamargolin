@@ -9,13 +9,30 @@ z = y[0]
 print(y)
 print(z) """
 
+""" #count amount of words in any sentence
 sentence = input("Enter your sentence: ")
 print(sentence)
-x = "sentence"
 y= sentence.split( )
-z = y[0]
 print(y)
-print(z)
+print(len(y)) """
 
-def count(sentence):
-    
+""" day_of_week = input("what day is it? ")
+if day_of_week == "Friday":
+    print("correct")
+else:
+    print("incorrect")
+
+    x = "test"
+print(f"hello {x}") """
+""" 
+temp = 75
+if temp > 68:
+    print('warm')
+elif temp == 68:
+    print('perfect')
+else:
+    print('cold') """
+
+print(5 % 2)
+
+
