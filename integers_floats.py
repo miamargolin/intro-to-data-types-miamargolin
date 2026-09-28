@@ -33,6 +33,14 @@ elif temp == 68:
 else:
     print('cold') """
 
-print(5 % 2)
+""" number = int(input("Enter your number: "))
+print(number)
+if number % 2 == 0:
+    print("even")
+elif number % 2 == 1:
+    print("odd")
+else:
+    print("input a positive integer") """
+
 
 
