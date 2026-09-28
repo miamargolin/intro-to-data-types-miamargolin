@@ -42,5 +42,9 @@ elif number % 2 == 1:
 else:
     print("input a positive integer") """
 
-
+tip = 0 
+total = 0
+bill = float(input("How much was your bill?"))
+service = (input("How was your service?: "))
+if service
 
