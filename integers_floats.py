@@ -45,6 +45,19 @@ else:
 tip = 0 
 total = 0
 bill = float(input("How much was your bill?"))
-service = (input("How was your service?: "))
-if service
+service = (input("How was your service?(bad, okay, good, great): ")).lower()
+if service == "bad":
+    tip = 0
+elif service == "okay":
+    tip = 15
+elif service == "good":
+    tip = 20
+elif service == "great":
+    tip = 25
+
+total = bill + (bill * tip / 100)
+print(total)
+
+
+
 
