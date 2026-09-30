@@ -42,7 +42,7 @@ elif number % 2 == 1:
 else:
     print("input a positive integer") """
 
-tip = 0 
+""" tip = 0 
 total = 0
 bill = float(input("How much was your bill?"))
 service = (input("How was your service?(bad, okay, good, great): ")).lower()
@@ -56,7 +56,20 @@ elif service == "great":
     tip = 25
 
 total = bill + (bill * tip / 100)
-print(total)
+print(total) """
+
+
+
+
+
+def spaces(N,Y,T):
+    x = 0
+    for i in range(N):
+        if Y[i] == "C" and T[i] == "C":
+            x += 1
+    print(x)
+spaces(5, "CC..C", ".CC..")
+
 
 
 
