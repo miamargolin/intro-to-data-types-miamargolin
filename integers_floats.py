@@ -62,15 +62,23 @@ print(total) """
 
 
 
-def spaces(N,Y,T):
+""" def spaces(N,Y,T):
     x = 0
     for i in range(N):
         if Y[i] == "C" and T[i] == "C":
             x += 1
     print(x)
-spaces(5, "CC..C", ".CC..")
+spaces(5, "CC..C", ".CC..") """
 
 
+def spaces (e, f):
+    French = 0
+    English = 0
+    for i in range (f):
+        if f[i] == "T,t" and e[i] == "T,t":
+           English+=1
+        if f[i] == "S,s" and e[i] == "S,s":
+            French+=1 
 
 
 
