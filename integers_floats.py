@@ -71,14 +71,29 @@ print(total) """
 spaces(5, "CC..C", ".CC..") """
 
 
-def spaces (e, f):
+""" def spaces (e, f):
     French = 0
     English = 0
     for i in range (f):
         if f[i] == "T,t" and e[i] == "T,t":
            English+=1
         if f[i] == "S,s" and e[i] == "S,s":
-            French+=1 
+            French+=1  """
+
+def find_factors(n):
+    factors = []
+    for i in range (1, 1+n):
+        if n % i == 0:
+            factors.append(i)
+   
+    return factors
+print(find_factors(36))
+
+def gcf(a, b):
+    
+
+
+
 
 
 
