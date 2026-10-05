@@ -90,7 +90,41 @@ def find_factors(n):
 print(find_factors(36))
 
 def gcf(a, b):
-    
+    factors_a = find_factors(a)
+    factors_b = find_factors(b)
+    common_factors = [f for f in factors_a if f in factors_b]
+
+    return max(common_factors)
+print(gcf(24,36))
+
+
+
+
+
+
+
+
+def wizard(owner,N, duels):
+ #who owns the wand 
+ last_owner = owner
+ #number of times changes 
+ changes = 0
+ #check 1 single battle 
+ #print(duels[0])
+ #check first character
+ 
+
+""" print(duels[0][0]) """
+
+#check if wand changed hands 
+if owner == duels [0][0]:
+   
+
+
+
+
+wizard("A", 3, ["BA", "CB"  ])
+
 
 
 
